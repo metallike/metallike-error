@@ -6,9 +6,18 @@
     "authors": [
         {
             "name": "Florian Brandl",
-            "email": "fb@metallike.de"
+            "email": "fb@metallike.de",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Metallike\\Component\\Error\\": "src/"
+        }
+    }
+
 }
