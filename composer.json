@@ -1,0 +1,14 @@
+{
+    "name": "metallike/error",
+    "description": "Error & exception handler for metallike framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Brandl",
+            "email": "fb@metallike.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
